@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+:root{
+    --primary-color:chocolate;
+    --grey-color:#6B7280;
+}
+body{
+    margin: 0px;
+    font-family: 'Kalam', cursive;
+}
+
+
+#btn-translate
+{
+    background-color :var(--primary-color);
+    border-radius:0.5rem;
+    color: white;
+    display: block;
+    max-width: 150px;
+    margin: 1rem 1rem 1rem 0rem;
+    margin:auto;
+    font-family: 'Kalam', cursive;
+    font-size:120%;
+}
+
+::-webkit-input-placeholder {
+    font-size:200%;
+  }
+
+.textarea-input
+{
+    display:block;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    width:70%;
+    height:10vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Kalam', cursive;
+    font-size:100%;
+    resize: horizontal;
+    
+}
+.output-area
+{
+    margin-top: 1rem;
+    display:block;
+    padding: 1rem 1rem;
+    width:70%;
+    height:10vh;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:200%;
+}
+.align-element
+{
+    text-align: center;
+}
+/*@header*/
+.nav-block
+{
+    display:block;
+    background-color: var(--primary-color);
+    height:10vh;
+    text-align:center;
+    padding:1rem 1rem;
+}
+
+ .hero-heading
+{
+    color:white;
+    text-align: center;
+    
+}
+.emphasize-name{
+    color:black;
+}
+.footer{
+    display:block;
+    text-align: center;
+    background-color: var(--primary-color);
+    height:18vh;
+    padding:1rem 1rem;
+    margin-top: 1rem;
+}
+.container-center{
+    max-width: 600px;
+    /*margin auto takes element to center*/
+    margin:auto ;    
+}
+.footer-header
+{
+    font-weight:bold;
+    font-size: x-large;
+}
