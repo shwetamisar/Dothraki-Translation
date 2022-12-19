@@ -1,0 +1,2 @@
+# Dothraki-Translator
+Did you Watch Game of Thrones? and how they speak Dothraki with fluency? so,if we can't speak we can always ask a translator to do our job.This application will translate English language to Dothraki. see here: https://mydothraki-translator.netlify.app/
